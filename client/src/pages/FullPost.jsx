@@ -64,7 +64,7 @@ export const FullPost = () => {
         ]}
         isLoading={false}
       >
-        <Index />
+        <Index idPost={data._id}/>
       </CommentsBlock>
     </>
   );
